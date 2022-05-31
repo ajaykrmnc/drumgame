@@ -7,8 +7,8 @@ function intToChar(int) {
 
 function buttonAnimation(currentKey) {
   var activeButton = document.querySelector("." + currentKey);
-  var snare = new Audio("assets/sounds/snare.mp3");
-        snare.play();
+  var snare = new Audio("/sounds/snare.mp3");
+  snare.play();
 
   activeButton.classList.add("clicked");
   setTimeout(function () {
