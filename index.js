@@ -59,7 +59,7 @@ async function load() {
       await timer(700);
     }
 
-    await timer(5000);
+    await timer(2500);
     for (let l = 0; l < k + 1; l++) {
       await timer(700);
     }
